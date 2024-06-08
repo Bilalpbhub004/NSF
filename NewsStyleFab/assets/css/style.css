@@ -43,8 +43,25 @@ span{
     height: 350px; 
     width: 320px;
 }
+.footer-link{
+
+    text-decoration: none;
+    color: #6c757d;
+    transition: 0.1s ease-in-out;
+}
+.footer-link:hover{
+color:#b0b0b0
+    
+}
 
 @media (max-width: 480px) { 
+
+    .main-img{
+        
+        width: 100%;
+    }
+ }
+ @media (max-width:768px) { 
 
     .main-img{
         
