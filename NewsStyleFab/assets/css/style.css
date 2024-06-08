@@ -1,0 +1,53 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+top: 0px;
+}
+
+.active-link{
+    color: black !important;
+}
+.nav-link{
+    color:  rgb(176, 176, 176) ; 
+    font-weight: 600;
+    font-weight: 700
+}
+.nav-link:hover{
+    color: black !important; 
+}
+span{
+    font-size: 12px;
+    line-height: 24px;
+}
+.span-title{
+    border-left:2px solid red;
+    font-weight: 600;
+    
+}
+.span-author{
+    border-left:2px solid  #b0b0b0; color: #b0b0b0;
+    font-weight: 500;
+}
+.card-text{
+    color: rgb(80, 80, 80);
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Eina03", "Open Sans", sans-serif;
+}
+.main-img{
+    height: 350px; 
+    width: 320px;
+}
+
+@media (max-width: 480px) { 
+
+    .main-img{
+        
+        width: 100%;
+    }
+ }
