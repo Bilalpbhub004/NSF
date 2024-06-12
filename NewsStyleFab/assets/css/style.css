@@ -103,18 +103,36 @@ background-color: #da0505;
     color: #fff;
     border: none;
     border-radius: 0px 18px;
-    
     padding: 5px 25px;
     font-size: 12px;
     text-align: center;
     cursor: pointer;
- 
+
 }
 .coupon-span{
     background: none 0% 0% / auto repeat scroll padding-box border-box rgb(173, 151, 151);
     border-radius: 0px 20px;
 
     padding: 10px 8px;
+}
+.btn-warning{
+    background-color: #f45435;
+    color: #ffffff;
+}
+.btn-warning:hover{
+    background-color: #f45435;
+    color: rgb(0, 131, 157);
+}
+.btn-outline-info:hover{
+
+    color: white;
+}
+.nav-list{
+
+color: #00aca3 !important;
+}
+.nav-list:hover{
+    color: #008780 !important;
 }
 
 @media (max-width: 480px) { 
